@@ -37,3 +37,5 @@ try:
     print(f'Pre-Pickled Dictionary: {dicStatusCode}, Pickled then Unpickled Dictionary: {dicUnpickledStatusCode}')
 except NameError:
     print('Or re-loaded and compared')
+
+input('\nPress Enter to Quit')
