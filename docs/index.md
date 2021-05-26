@@ -8,10 +8,7 @@ This document details how I applied what I have learned in module 7 of the Intro
 Pickling can be used to save objects to a file. This is useful when you do not need to process the objects into a readable text file, but still need to be able to store the data for use at later run times. The pickle library needs to be imported to be used in the script. Libraries can be imported using the import function. Once imported, the file needs to be opened in a way that specifies binary. This can be done by specifying ‘wb’ in the open function. Once opened, the dictionary object can be pickled into the file using pickle.dump(). The resulting code can be seen in figure 1. 
  
  
- ```
- outfile = open(strFileName, 'wb')
- pickle.dump(dicStatusCode, outfile)
- ```
+![Figure 1: PyCharm showing a dictionary being pickled into a file](/images/picklein.jpg "Figure 1: PyCharm showing a dictionary being pickled into a file")
 **Figure 1: PyCharm showing a dictionary being pickled into a file**
 
 
